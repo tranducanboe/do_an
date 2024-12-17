@@ -1,4 +1,4 @@
-package com.example.do_an
+package com.example.do_an.ui
 
 import android.content.Intent
 import android.os.Bundle

@@ -1,4 +1,4 @@
-package com.example.do_an
+package com.example.do_an.ui
 
 import android.app.ComponentCaller
 import android.app.ProgressDialog
@@ -12,7 +12,6 @@ import com.example.do_an.model.User
 import com.google.firebase.auth.FirebaseAuth
 import com.google.firebase.database.FirebaseDatabase
 import com.google.firebase.storage.FirebaseStorage
-import java.util.Date
 
 class SetupProfileActivity : AppCompatActivity() {
 

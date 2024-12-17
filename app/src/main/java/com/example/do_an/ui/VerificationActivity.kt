@@ -1,4 +1,4 @@
-package com.example.do_an
+package com.example.do_an.ui
 
 import android.content.Intent
 import android.os.Bundle
@@ -45,5 +45,9 @@ class VerificationActivity : AppCompatActivity() {
                 Toast.makeText(this, "Please enter a valid phone number.", Toast.LENGTH_SHORT).show()
             }
         }
+    }
+    override fun onBackPressed() {
+        super.onBackPressed()
+        finish()
     }
 }

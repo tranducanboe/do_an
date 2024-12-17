@@ -1,11 +1,8 @@
-package com.example.do_an
+package com.example.do_an.ui
 
 import android.app.ProgressDialog
 import android.os.Bundle
-import androidx.activity.enableEdgeToEdge
 import androidx.appcompat.app.AppCompatActivity
-import androidx.core.view.ViewCompat
-import androidx.core.view.WindowInsetsCompat
 import androidx.recyclerview.widget.GridLayoutManager
 import com.example.do_an.adapter.UserAdapter
 import com.example.do_an.databinding.ActivityMainBinding

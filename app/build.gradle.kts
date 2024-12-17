@@ -62,6 +62,8 @@ dependencies {
     implementation("de.hdodenhof:circleimageview:3.1.0")
     implementation("com.github.bumptech.glide:glide:4.15.1")
     annotationProcessor("com.github.bumptech.glide:compiler:4.15.1")
+//lottie
+    implementation("com.airbnb.android:lottie:6.1.0")
 
 //    implementation("com.github.pgreze:android-reactions:1.5.0")
 //    implementation("com.github.OMARIHAMZA:StoryView:1.0.3")
