@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:background="@color/white"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Answer and Questions"
+        android:textSize="25sp"
+        android:layout_marginTop="20dp"
+        android:textColor="#F80303"
+        android:textStyle="bold|normal"
+        android:textAlignment="center"
+        />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Ask your any question for Expert and get Solution for your Problem"
+        android:textSize="13sp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="10dp"
+        android:textColor="@color/black"
+        android:textStyle="bold|normal"
+        android:textAlignment="textStart"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:background="#535151"
+        android:layout_marginTop="9dp"
+        android:layout_marginBottom="15dp"
+        android:layout_height="1dp"/>
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_marginTop="6dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/rw_user"
+            tools:listitem="@layout/item_profile"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"/>
+    </LinearLayout>
+
+</LinearLayout>
